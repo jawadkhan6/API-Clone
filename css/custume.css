@@ -1,0 +1,54 @@
+/******************************************
+ Responsive
+******************************************/
+
+.plinks, .plinks:link, .plinks:visited { color:#393B8A; }
+.plinks:hover { color:#dc3545; }
+
+.ulist li a, .ulist li a:link, .ulist li a:visited {
+	color:#b62e26;
+}
+
+.ulist li a:hover {
+	color:#393B8A;
+}
+
+.wa-wrapper {
+	position:fixed;
+	right:25px;
+	top:35px;
+	width:35px;
+	height:35px;
+	padding-top:0px;
+	margin-top:0px;
+	text-align:center;
+	background-image:linear-gradient(#5DF876, #2CBA28);
+	border-radius:8px;
+	z-index:1005;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 479px) {
+.wa-wrapper {
+	top:12px;
+	right:40px;
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+.wa-wrapper {
+	top:12px;
+	right:40px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.wa-wrapper {
+	top:12px;
+	right:40px;
+}
+}
+ @media only screen and (min-width: 992px) and (max-width: 1169px) {
+.wa-wrapper {
+	top:120px;
+}
+}
